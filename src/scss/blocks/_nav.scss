@@ -1,0 +1,19 @@
+.header__nav {
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__nav-item {
+    text-transform: uppercase;
+
+    a {
+        color: var(--text-color);
+    }
+}
+.header__nav-link {
+}
