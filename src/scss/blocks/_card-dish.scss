@@ -1,0 +1,35 @@
+.dish__card {
+    width: 330px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.dish__weight {
+    padding: 5px;
+    border-radius: 3px;
+    width: 47px;
+}
+
+.header__dishday-content__text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.dish__buy {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    padding-top: 15px;
+}
+.dish__price {
+    font-size: 23px;
+    font-weight: 800;
+}
+.dish__btn {
+    background: var(--accent);
+    padding: 5px;
+}

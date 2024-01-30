@@ -65,3 +65,18 @@
 	left: -35px;
 	background-image: url("./../../img/header/points-bg-small.svg");
 }
+
+.header__dishday-content {
+	position: absolute;
+	bottom: -250px;
+	right: 38%;
+
+	width: 355px;
+	height: 358px;
+	background-image: url("./../../img/header/red-bg.svg");
+	padding: 37px 70px 63px 56px;
+}
+
+.header__dishday-dish__weight {
+	background-color: #cd4c4c;
+}
