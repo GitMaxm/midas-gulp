@@ -15,8 +15,53 @@
 	gap: 40px;
 }
 
-.logo {
+.header__content {
+	padding-top: 44px;
+	padding-bottom: 380px;
+
+	// display: flex;
+	// justify-content: space-between;
+	// align-items: center;
+
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	justify-items: stretch;
+	align-items: start;
+	gap: 68px;
 }
 
-.mobile-nav-btn {
+.header__content-descr {
+	padding-top: 30px;
+	position: relative;
+	max-width: 312px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 247px;
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+
+		&-tel {
+			color: #fff;
+			font-size: 25px;
+		}
+		&-mail {
+			color: #fff;
+			font-size: 18px;
+			text-decoration-line: underline;
+		}
+	}
+}
+
+.header__content-descr::before {
+	position: absolute;
+
+	content: "";
+	width: 184px;
+	height: 184px;
+	left: -35px;
+	background-image: url("./../../img/header/points-bg-small.svg");
 }

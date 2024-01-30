@@ -4,6 +4,9 @@ html {
 
 body {
 	background-color: var(--page-bg);
+	background-image: url(./../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: var(--text-color);
 	font-family: var(--font-main);
 
