@@ -1,0 +1,30 @@
+<header class="header">
+    <div class="header__row container">
+        <div class="logo"><a href="#!"><img src="./img/logo.svg" alt="Midas"></a></div>
+
+        @@include('elements/nav-bar.html')
+
+        <div class="header__tools">
+            <a href="#!" class="search-icon">
+                <img src="./img/icons/search.svg" alt="Поиск">
+            </a>
+            <a href="#!" class="account-icon">
+                <img src="./img/icons/login.svg" alt="Личный кабинет">
+            </a>
+            <a href="#!" class="cart-icon">
+                <img src="./img/icons/cart-white.svg" alt="Корзина">
+            </a>
+        </div>
+
+        <button class="none mobile-nav-btn">
+            <div class="nav-icon"></div>
+        </button>
+
+    </div>
+
+
+    @@include('elements/header-content.html')
+
+    </div>
+</header>
+@@include('elements/mobile-nav.html')
