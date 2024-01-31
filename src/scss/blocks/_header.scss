@@ -66,15 +66,34 @@
 	background-image: url("./../../img/header/points-bg-small.svg");
 }
 
+.header__dishday {
+	position: relative;
+}
+
+.header__dishday::before {
+	position: absolute;
+
+	content: "";
+	width: 184px;
+	height: 184px;
+	left: -35px;
+	background-image: url("./../../img/header/points-bg-big.svg");
+}
+
 .header__dishday-content {
 	position: absolute;
-	bottom: -250px;
-	right: 38%;
-
+	bottom: -145px;
+	left: 86px;
 	width: 355px;
 	height: 358px;
-	background-image: url("./../../img/header/red-bg.svg");
+	background-image: url(./../../img/header/red-bg.svg);
 	padding: 37px 70px 63px 56px;
+}
+
+.header__dishday-content--extra-dish {
+	position: absolute;
+	right: 105%;
+	top: 630px;
 }
 
 .header__dishday-dish__weight {
