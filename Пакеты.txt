@@ -1,5 +1,6 @@
 Команда для установки всех пакетов:
 npm i gulp gulp-sass sass gulp-file-include gulp-clean gulp-server-livereload gulp-sourcemaps gulp-plumber gulp-notify gulp-group-css-media-queries --save-dev
+npm install --save-dev webpack
 
 Описание пакетов:
 gulp - собственно Gulp
@@ -70,3 +71,47 @@ npm install --save-dev gulp-changed
 web-p
 
 npm i gulp-webp gulp-webp-html gulp-webp-css --save-dev
+
+
+-----------------------------------------------------
+
+
+
+
+
+
+Эта ошибка возникает из-за ограничений политики выполнения PowerShell на вашей системе.
+
+Чтобы запустить gulp, нужно временно ослабить политику выполнения.
+
+Попробуйте следующие решения:
+
+1. Временно разрешить выполнение всех скриптов:
+
+```
+Set-ExecutionPolicy Unrestricted -Scope Process
+```
+
+2. Разрешить выполнение только подписанных скриптов:
+
+```  
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+
+3. Разрешить выполнение только для текущего сеанса:
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force
+```
+
+После этого вы сможете запустить gulp из этого же сеанса PowerShell.
+
+Не забудьте вернуть ограничительную политику выполнения по завершению работы:
+
+```
+Set-ExecutionPolicy Restricted
+```
+
+Также можно разрешить выполнение gulp, добавив каталог с ним в переменную PATH через systempropertiesadvanced.
+
+Но лучше использовать временное ослабление политики выполнения, чтобы не снижать безопасность системы.

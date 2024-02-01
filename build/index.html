@@ -108,7 +108,22 @@
 </div>
 
 	<main>
-		
+		<section class="popular">
+    <div class="container">
+        <div class="popular__wrapper">
+
+            <h2 class="title-2">Популярные блюда</h2>
+
+            <ul class="popular__card-list">
+
+                
+
+                @@loop('elements/card-dish.html','./../../data/cart-dish.json')
+
+            </ul>
+        </div>
+    </div>
+</section>
 	</main>
 	
 	<script src="./js/index.bundle.js"></script>
