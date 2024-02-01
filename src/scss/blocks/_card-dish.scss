@@ -1,10 +1,4 @@
-.popular__card-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 21px;
-}
-
-.dish__card {
+.card {
     width: 233px;
     display: flex;
     flex-direction: column;
@@ -41,10 +35,8 @@
     font-size: 23px;
     font-weight: 800;
 }
+
 .dish__btn {
     background: var(--accent);
     padding: 5px;
-}
-
-.dish__text {
 }
