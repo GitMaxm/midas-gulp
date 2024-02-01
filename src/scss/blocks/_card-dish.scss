@@ -1,9 +1,15 @@
-.dish__card {
-    width: 330px;
+.popular__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 21px;
+}
 
+.dish__card {
+    width: 233px;
     display: flex;
     flex-direction: column;
     gap: 7px;
+    justify-content: space-between;
 }
 
 .dish__img {
@@ -38,4 +44,7 @@
 .dish__btn {
     background: var(--accent);
     padding: 5px;
+}
+
+.dish__text {
 }

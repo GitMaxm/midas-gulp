@@ -2,6 +2,8 @@
 	padding: 50px 0;
 	padding-bottom: 380px;
 
+	overflow-x: hidden;
+
 	&__row {
 		display: flex;
 		justify-content: space-between;
@@ -89,6 +91,10 @@
 	height: 358px;
 	background-image: url(./../../img/header/red-bg.svg);
 	padding: 37px 70px 63px 56px;
+
+	&-content__title {
+		font-size: 25px;
+	}
 }
 
 .header__dishday-content--extra-dish {
