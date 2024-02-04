@@ -1,0 +1,65 @@
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide__link {
+    width: 233px;
+    height: 314px;
+    background: #000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: space-between;
+    gap: 37px;
+
+    img {
+        width: 160px;
+    }
+}
+
+.swiper-slide__link--promotion {
+    background: #b70000;
+    justify-content: space-around;
+}
+
+.swiper-slide__percent {
+    width: 162px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 5px;
+
+    img {
+        height: 53px;
+    }
+}
+
+.swiper-slide__descr {
+    font-size: 20px;
+    line-height: 24px;
+
+    &--promotion {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &--promotion::after {
+        content: "";
+        background: url("./../../img/icons/fire.png") no-repeat;
+        display: block;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.swiper-slide__descr .swiper-button-next {
+}
+.swiper-button-prev {
+}

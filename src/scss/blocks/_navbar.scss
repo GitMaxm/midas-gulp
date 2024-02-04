@@ -1,0 +1,31 @@
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__nav-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__nav-link {
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.header__nav-item--fire::after {
+    content: "";
+    background: url("./../../img/icons/fire.png") no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.header__nav-item--arr::after {
+    content: "";
+    background: url("./../../img/icons/arr-menu.svg") no-repeat;
+    width: 9.03px;
+    height: 5.71px;
+}
