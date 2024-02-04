@@ -7,8 +7,8 @@ import 'swiper/css/bundle';
 export default function swiperSlider() {
     // init Swiper:
     const swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        initialSlide: 1,
+        slidesPerView: 5,
+        initialSlide: 2,
         spaceBetween: 20,
         centeredSlides: true,
 
