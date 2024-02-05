@@ -49,15 +49,14 @@
 
     </div>
 
-    <div class="header__content ">
+    <div class="header__content">
     <div class="container-right">
-        <div class="header__wrapper">
-            <div class="header__content-descr">
+        <div class="header__content-wrapper">
+            <div class="header__description">
                 <h1 class="title-1">Доставка готовой еды из фермерских продуктов!</h1>
-                <div class="header__content-descr__info">
-                    <a class="header__content-descr__info-tel" href="tel:+74998416729">+7 (499) 841-67-29</a>
-                    <a class="header__content-descr__info-mail"
-                        href="mailto:delivery@midas.rest">delivery@midas.rest</a>
+                <div class="header__description-info">
+                    <a class="header__description-tel" href="tel:+74998416729">+7 (499) 841-67-29</a>
+                    <a class="header__description-mail" href="mailto:delivery@midas.rest">delivery@midas.rest</a>
                 </div>
 
                 <div class="header__dishday-content--extra-dish dish__card">
@@ -348,13 +347,24 @@
     <div class="container">
         <div class="menu__wrapper">
             <h2 class="title-2">Меню</h2>
+
+            <div class="button-swiper">
+                <button type="button" id="button-prev">
+                    <img src="./img/menu/prev.png" alt="Кнопка-назад">
+                </button>
+
+                <button type="button" id="button-next">
+                    <img src="./img/menu/next.png" alt="Кнопка-вперед">
+                </button>
+            </div>
+
             <!-- Slider main container -->
 <div class="swiper mySwiper">
 
     <div class="swiper-wrapper">
 
         <div class="swiper-slide">
-            <a class="swiper-slide__link swiper-slide__link--promotion">
+            <a href="#!" class="swiper-slide__link swiper-slide__link--promotion">
                 <div class="swiper-slide__percent">
                     <img src="./img/menu/promotion/20.png" alt="promotion">
                     <img src="./img/menu/promotion/percent.png" alt="percent">
@@ -368,7 +378,7 @@
         </div>
 
         <div class="swiper-slide">
-            <a class="swiper-slide__link">
+            <a href="#!" class="swiper-slide__link">
                 <img src="./img/menu/dish/01.png" alt="dish">
                 <p class="swiper-slide__descr">Горячие <br> блюда</p>
                 <img src="./img/menu/dish/02.png" alt="dish">
@@ -376,7 +386,7 @@
         </div>
 
         <div class="swiper-slide">
-            <a class="swiper-slide__link">
+            <a href="#!" class="swiper-slide__link">
                 <img src="./img/menu/dish/03.png" alt="dish">
                 <p class="swiper-slide__descr">Супы</p>
                 <img src="./img/menu/dish/04.png" alt="dish">
@@ -384,7 +394,7 @@
         </div>
 
         <div class="swiper-slide">
-            <a class="swiper-slide__link">
+            <a href="#!" class="swiper-slide__link">
                 <img src="./img/menu/dish/05.png" alt="dish">
                 <p class="swiper-slide__descr">Хинкали</p>
                 <img src="./img/menu/dish/06.png" alt="dish">
@@ -392,46 +402,15 @@
         </div>
 
         <div class="swiper-slide">
-            <div class="swiper-slide__link">
+            <a href="#!" class="swiper-slide__link">
                 <img src="./img/menu/dish/07.png" alt="dish">
                 <p class="swiper-slide__descr">Холодные <br> закуски</p>
                 <img src="./img/menu/dish/08.png" alt="dish">
-            </div>
-        </div>
-
-        <div class="swiper-slide">
-            <a class="swiper-slide__link">
-                <img src="./img/menu/dish/09.png" alt="dish">
-                <p class="swiper-slide__descr">Салаты</p>
-                <img src="./img/menu/dish/10.png" alt="dish">
             </a>
         </div>
 
         <div class="swiper-slide">
-            <a class="swiper-slide__link">
-                <img src="./img/menu/dish/09.png" alt="dish">
-                <p class="swiper-slide__descr">Салаты</p>
-                <img src="./img/menu/dish/10.png" alt="dish">
-            </a>
-        </div>
-
-        <div class="swiper-slide">
-            <a class="swiper-slide__link">
-                <img src="./img/menu/dish/09.png" alt="dish">
-                <p class="swiper-slide__descr">Салаты</p>
-                <img src="./img/menu/dish/10.png" alt="dish">
-            </a>
-        </div>
-
-        <div class="swiper-slide">
-            <a class="swiper-slide__link">
-                <img src="./img/menu/dish/09.png" alt="dish">
-                <p class="swiper-slide__descr">Салаты</p>
-                <img src="./img/menu/dish/10.png" alt="dish">
-            </a>
-        </div>
-        <div class="swiper-slide">
-            <a class="swiper-slide__link">
+            <a href="#!" class="swiper-slide__link">
                 <img src="./img/menu/dish/09.png" alt="dish">
                 <p class="swiper-slide__descr">Салаты</p>
                 <img src="./img/menu/dish/10.png" alt="dish">
@@ -439,16 +418,51 @@
         </div>
 
     </div>
-
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+</div>
 
 </div>
         </div>
     </div>
 </section>
 	</main>
-	
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__row">
+			<div class="footer__logo-container">
+
+				<div class="logo">
+					<a href="#!"><img class="logo__image" src="./img/logo.svg" alt="Midas"></a>
+				</div>
+
+				<ul class="footer__list">
+					<li class="footer__list-item"><a class="footer__list-link" href="#!">Ссылка 1</a></li>
+					<li class="footer__list-item"><a class="footer__list-link" href="#!">Ссылка 2</a></li>
+					<li class="footer__list-item"><a class="footer__list-link" href="#!">Ссылка 3</a></li>
+					<li class="footer__list-item"><a class="footer__list-link" href="#!">Ссылка 4</a></li>
+				</ul>
+
+			</div>
+
+			<div class="footer__contact-info">
+				<a class="footer__contact-tel" href="tel:+74998416729">+7 (499) 841-67-29</a>
+				<a class="footer__contact-mail" href="mailto:delivery@midas.rest">delivery@midas.rest</a>
+			</div>
+
+		</div>
+
+		<div class="line"></div>
+
+		<div class="footer__row">
+			<p class="footer__copyright">© 2009–2019, ООО «MIDAS», официальный сайт</p>
+
+			<div class="footer__legal-links">
+				<a class="footer__legal-link" href="#!">Политика конфиденциальности и оферта</a>
+				<a class="footer__legal-link" href="#!">Пользовательское соглашение</a>
+			</div>
+
+		</div>
+	</div>
+</footer>
 	<script src="./js/index.bundle.js"></script>
 </body>
 

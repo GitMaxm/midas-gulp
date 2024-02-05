@@ -8,4 +8,16 @@
     flex-direction: column;
     align-items: center;
     gap: 37px;
+
+    position: relative;
+}
+
+.button-swiper {
+    position: absolute;
+    top: 22px;
+    right: 28px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }

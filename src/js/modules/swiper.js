@@ -13,9 +13,10 @@ export default function swiperSlider() {
         centeredSlides: true,
 
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: "#button-next",
+            prevEl: "#button-prev",
         },
+
         mousewheel: true,
         keyboard: true,
 

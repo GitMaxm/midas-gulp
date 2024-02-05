@@ -12,6 +12,7 @@
     width: 233px;
     height: 314px;
     background: #000;
+    color: var(--text-color);
 
     display: flex;
     flex-direction: column;
@@ -27,6 +28,7 @@
 .swiper-slide__link--promotion {
     background: #b70000;
     justify-content: space-around;
+    border-radius: 4px;
 }
 
 .swiper-slide__percent {
@@ -60,9 +62,4 @@
         width: 18px;
         height: 18px;
     }
-}
-
-.swiper-slide__descr .swiper-button-next {
-}
-.swiper-button-prev {
 }

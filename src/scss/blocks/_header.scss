@@ -21,7 +21,7 @@
 	padding-top: 44px;
 }
 
-.header__wrapper {
+.header__content-wrapper {
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	justify-content: space-between;
@@ -29,7 +29,7 @@
 	gap: 68px;
 }
 
-.header__content-descr {
+.header__description {
 	padding-top: 30px;
 	position: relative;
 	max-width: 312px;
@@ -39,23 +39,22 @@
 	justify-content: center;
 	gap: 247px;
 
-	&__info {
+	&-info {
 		display: flex;
 		flex-direction: column;
-
-		&-tel {
-			color: #fff;
-			font-size: 25px;
-		}
-		&-mail {
-			color: #fff;
-			font-size: 18px;
-			text-decoration-line: underline;
-		}
+	}
+	&-tel {
+		color: #fff;
+		font-size: 25px;
+	}
+	&-mail {
+		color: #fff;
+		font-size: 18px;
+		text-decoration-line: underline;
 	}
 }
 
-.header__content-descr::before {
+.header__description::before {
 	position: absolute;
 
 	content: "";
