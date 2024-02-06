@@ -1,14 +1,65 @@
-.footer {
-	background-color: rgb(62, 62, 62);
-	padding: 50px 0;
-	font-size: 32px;
-    color: #fff;
+.footer__row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-	h1 {
-		font-size: 32px;
+	font-size: 12px;
+}
+
+.footer__logo-container {
+	display: flex;
+	align-items: center;
+	column-gap: 115px;
+
+	.footer__list {
+		display: flex;
+		align-items: center;
+		gap: 50px;
+
+		&-item {
+		}
+
+		&-link {
+			color: var(--text-color);
+			text-decoration: underline;
+		}
 	}
+}
 
-	@media (max-width: 1200px) {
-		font-size: 26px;
+.footer__contact-info {
+	display: flex;
+	align-items: center;
+	gap: 29px;
+
+	.footer__contact-tel {
+		font-size: 20px;
+		color: var(--text-color);
+	}
+	.footer__contact-mail {
+		color: var(--text-color);
+		text-decoration: underline !important;
+	}
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	opacity: 0.3;
+	margin-top: 35px;
+	margin-bottom: 28px;
+}
+
+.footer__copyright {
+}
+
+.footer__legal {
+	display: flex;
+	align-items: center;
+	gap: 45px;
+
+	&-link {
+		color: var(--text-color);
+		text-decoration: underline !important;
 	}
 }
